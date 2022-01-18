@@ -1,3 +1,13 @@
+# Samsung Internet Newsletter Archive
+
+
+{% for post in site.posts %}
+
+## [{{ post.title }}]({{ post.url }})
+{{ post.excerpt }}
+
+{% endfor %}
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/SamsungInternet/newsletter/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
