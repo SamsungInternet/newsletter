@@ -1,4 +1,4 @@
-# Samsung Internet Newsletter Archive
+Archive
 
 There has been {{site.posts.length}} newsletters made. 
 {% for post in site.posts %}
