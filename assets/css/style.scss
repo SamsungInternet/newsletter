@@ -1,7 +1,7 @@
 ---
 ---
 
-@import "";
+@import "{{ site.theme }}";
 
 figure>img {
 	max-height: 30vh;
